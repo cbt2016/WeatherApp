@@ -7,7 +7,7 @@ function getPromise(location) {
 }
 
 getPromise('los angeles').then(function(temp){
-  console.log('success ',temp);
+  console.log('success! ',temp);
 },function(err){
   console.log('error ',err);
 });
