@@ -17,7 +17,7 @@ module.exports = {
     filename: './public/bundle.js'
   },
   resolve: {
-  modules: [path.resolve(__dirname, "app/components/"),path.resolve(__dirname, "app/api/"), "node_modules"],
+  modules: [path.resolve(__dirname, "app/components/"),path.resolve(__dirname, "app/api/"),path.resolve(__dirname, "app/styles/"), "node_modules"],
 
     extensions: ['.js','.jsx']
   },

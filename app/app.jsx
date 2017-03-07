@@ -13,6 +13,9 @@ var Examples = require('Examples');
 //load foundation
 require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
+
+//app css
+require('style-loader!css-loader!sass-loader!app.scss');
 ReactDOM.render(
     <Router history ={hashHistory}>
       <Route path='/' component={Main}>
